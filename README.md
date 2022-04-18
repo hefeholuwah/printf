@@ -1,1 +1,1 @@
-This project is about collaborating on git
+pelumi ori ee yii
