@@ -18,9 +18,9 @@ int _printf(const char *format, ...);
 int _putchar(char *buffer, char s);
 
 /* Specifiers for the functions 0 */
-int print_percent(char *s, char *buffer);
-int print_char(va_list args, char *buffer);
-int print_string(va_list args, char *buffer);
+int p_p(char *s, char *buffer);
+int p_char(va_list args, char *buffer);
+int p_s(va_list args, char *buffer);
 
 /* Specifier for verification */
 int (*verify_format(const char *s))();
