@@ -11,7 +11,7 @@ int print_number_u(unsigned int n, char *buffer)
 {
 	unsigned int k, l, len = 0;
 
-	k = l;
+	k = 1;
 	l = n;
 	while (l > 9)
 	{

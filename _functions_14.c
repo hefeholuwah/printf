@@ -9,7 +9,7 @@
  */
 int print_r(va_list args, char *buffer)
 {
-	char *s = va_args(args, char *);
+	char *s = va_arg(args, char *);
 	int len, i;
 
 	if (s)
@@ -23,7 +23,7 @@ int print_r(va_list args, char *buffer)
 		len = 6;
 		s = "(null)";
 		for (i = 0; i < len; i++)
-			_putchar(buffer, *(s + i));
+		_putchar(buffer, *(s + i));
 	}
 	return (len);
 }
