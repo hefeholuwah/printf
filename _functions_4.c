@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number_u - this function prints unsigned integers
+ * print_number_u - this function print unsigned integers
  * Description: this function prints print integers
  * @n: the integer of the entry
  * @buffer: Buffer
@@ -9,7 +9,7 @@
  */
 int print_number_u(unsigned int n, char *buffer)
 {
-	unsigned int k, l, len = 0;
+	unsigned int  k, l, len = 0;
 
 	k = 1;
 	l = n;
@@ -82,7 +82,7 @@ int print_o(va_list args, char *buffer)
  * Description: This function prints hexadecimals
  * @args: Argument to print
  * @buffer: Buffer
- * REturn: length of @args
+ * Return: length of @args
  */
 int print_x(va_list args, char *buffer)
 {
@@ -112,7 +112,7 @@ int print_x(va_list args, char *buffer)
 
 /**
  * print_X - Prints hexadecimals in uppercase
- * Description: This function prints hexadecimals in uppercase
+ * Description: This function prints hexadecimals in uppsercase
  * @args: Argument to print
  * @buffer: Buffer
  * Return: length of @args
